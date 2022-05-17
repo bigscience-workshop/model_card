@@ -227,7 +227,112 @@ The training supercomputer, Jean Zay, uses mostly nuclear energy, and the heat g
 
 #### **Language**
 
+<table>
 
+<tr><td>
+
+
+```mermaid
+pie showData
+    title All
+    "Niger Congo": 0.03
+    "Basque" : 0.20
+    "Indonesian" : 1.10
+    "Catalan" : 1.10
+    "Indic" : 2.10
+    "Vietnamese" : 2.50
+    "Arabic" : 3.30
+    "Portuguese" : 5.00
+    "Spanish" : 10.70
+    "Code" : 13.00
+    "French" : 13.10
+    "Chinese" : 17.70
+    "English" :  30.30
+    
+```
+| Indic     |  Percentage |
+| ---       |      ---    |
+| Assamese  |     0.01%   |
+| Odia      |     0.04%   |
+| Gujarati  |     0.04%   |
+| Marathi   |     0.05%   |
+| Punjabi   |     0.05%   |
+| Kannada   |     0.06%   |
+| Nepali    |     0.07%   |
+| Telugu    |     0.09%   |
+| Malayalam |     0.10%   |
+| Urdu      |     0.10%   |
+| Tamil     |     0.20%   |
+| Bengali   |     0.50%   |
+| Hindi     |     0.70%   |
+
+</td><td>
+
+
+```mermaid
+pie showData
+    title Niger Congo:
+   "Chi Tumbuka" : 0.00
+    "Kikuyu" : 0.00
+    "Bambara" : 0.00
+    "Akan" : 0.00
+    "Xitsonga" : 0.00
+    "Sesotho" : 0.00
+    "Chi Chewa" : 0.00
+    "Twi" :  0.00
+    "Setswana" :  0.00
+    "Lingala" : 0.00
+    "Northern Sotho" :  0.00
+    "Fon" :  0.00
+    "Kirundi" :   0.00
+    "Wolof" :   0.00
+    "Luganda" :   0.00
+    "Chi Shona" :  0.00
+    "Isi Zulu" :  0.00
+    "Igbo" :  0.00
+    "Xhosa" :  0.00
+    "Kinyarwanda" :  0.00
+    "Yoruba" :   0.01
+    "Swahili" :   0.02
+
+```
+
+```mermaid
+pie showData
+    title Indic:
+    "Assamese" :0.01
+    "Odia" : 0.04
+   "Gujarati" : 0.04
+    "Marathi" : 0.05
+    "Punjabi" :  0.05
+    "Kannada" :  0.06
+   "Nepali ": 0.07
+    "Telugu" : 0.09
+    "Malayalam" : 0.10
+    "Urdu" : 0.10
+    "Tamil" :  0.20
+    "Bengali" :  0.50
+    "Hindi" : 0.70
+    
+```
+</td></tr> </table>
+
+
+| Indic     |  Percentage |
+| ---       |      ---    |
+| Assamese  |     0.01%   |
+| Odia      |     0.04%   |
+| Gujarati  |     0.04%   |
+| Marathi   |     0.05%   |
+| Punjabi   |     0.05%   |
+| Kannada   |     0.06%   |
+| Nepali    |     0.07%   |
+| Telugu    |     0.09%   |
+| Malayalam |     0.10%   |
+| Urdu      |     0.10%   |
+| Tamil     |     0.20%   |
+| Bengali   |     0.50%   |
+| Hindi     |     0.70%   |
 
 ### Metrics for Evaluation
 
