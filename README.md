@@ -23,7 +23,7 @@
 
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
 
-#### Technical Specifications
+### Technical Specifications
 
 **Model Architecture:** Modified from Megatron-LM GPT2:
 
@@ -35,7 +35,7 @@
 
 **Number of Parameters:** 176B parameters -- 70 layers, 112 attention heads
 
-##### Infrastructure
+#### Infrastructure
 
 Compute Infrastructure: [Jean Zay](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) Public Supercomputer, provided by the French government
 
@@ -67,7 +67,7 @@ Software:
 
 -   [apex](https://github.com/NVIDIA/apex) 
 
-##### Training
+#### Training
 
 Checkpoint size:
 
@@ -93,11 +93,11 @@ Server training location: Ile-de-France, France
 
 *This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model.*
 
-#### Intended use
+### Intended use
 
 This model is being created in order to enable public research on large language models (LLMs). LLMs are intended to be used for language generation or as a pretrained base model that can be further fine-tuned for specific tasks. Use cases below are not exhaustive.
 
-##### **Direct Use**
+#### **Direct Use**
 
 -   Text generation
 
@@ -105,17 +105,17 @@ This model is being created in order to enable public research on large language
 
     -   Examples: Cloze tests, counterfactuals, generations with reframings.
 
-##### **Downstream Use**
+#### **Downstream Use**
 
 -   Tasks that leverage language models include: Information Extraction, Question Answering, Summarization.
 
-#### Misuse and Out-of-scope Use
+### Misuse and Out-of-scope Use
 
 *This section addresses what users ought not do with the model.*
 
 See the  [LLM LICENSE ](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit), Attachment A, for detailed usage restrictions. The below list is non-exhaustive, but lists some easily foreseeable problematic use cases.
 
-##### **Out-of-scope Uses**
+#### **Out-of-scope Uses**
 
 Using the model in [high-stakes](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#bookmark=id.grey8ubq0nvg) settings is out of scope for this model.  The model is not designed for [critical decisions](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#bookmark=id.5fu0y76t5a0n) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
 
@@ -148,9 +148,9 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#heading=h.3blioxkgzsje).
 
-#### Intended Users
+### Intended Users
 
-##### **Direct Users**
+#### **Direct Users**
 
 -   General Public
 
@@ -166,13 +166,13 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Community advocates, including human and civil rights groups
 
-##### Indirect Users
+#### Indirect Users
 
 -   Users of derivatives created by Direct Users, such as those using software with an [intended use](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#heading=h.t4zedx9s7smn).
 
 -   Users of [Derivatives of the Model, as described in the License](https://docs.google.com/document/d/117RhytMYC9HS-1NmWHEn9XBK7vJ5kdv9OcG6AV69Vec/edit#bookmark=id.pvl8781qfes3).
 
-##### Others Affected (Parties prenantes)
+#### Others Affected (Parties prenantes)
 
 -   People and groups referred to by the LLM
 
@@ -334,7 +334,8 @@ pie showData
 | Bengali   |     0.50%   |
 | Hindi     |     0.70%   |
 
-### Metrics for Evaluation
+## Metrics 
+*This section describes the different ways performance is calculated, and why.*
 
 Forthcoming. Includes:
 
@@ -344,6 +345,19 @@ Forthcoming. Includes:
 | Accuracy           | Standard for benchmarking                                          |
 | Perplexity         | Standard metric for quantifying model improvements during training |
 | Cross Entropy Loss | Standard objective for language models                             |
+
+
+##  Results
+*Results are based on the Factors and Metrics defined above.*
+
+### Train-time evaluation
+As we train, we calculate loss and perplexity. 
+
+-  Current Loss:______
+
+-   Perplexity per language:
+
+
 
 ## Recommendations
 
@@ -359,126 +373,25 @@ Forthcoming. Includes:
 
 
 
-## Evaluation Protocol
-
-###### Describes the methods and techniques used to evaluate the model. Examples for these subsections available here.
-
-#### Values-targeted
-
-This evaluation is based on smaller, hand-crafted datasets that reflect different human values. Results highlight specific issues in the values embedded in a model.
-
-#### Overview
-
-We run three kinds of evaluation procedures. 
-
-1.  Intrinsic: Evaluation during train time, calculated as the loss on the training datasets and perplexity per language.
-
-2.  Zero-shot: Evaluation throughout development for architecture, scaling, and modeling information. All tests are in English.
-
-3.  Downstream: Testing the fully trained model for different kinds of capabilities. This includes evaluation in multiple languages.
-
-1.  Prompt-based
-
-2.  Fine-tuned
-
-Papers with further details include <https://openreview.net/pdf?id=rI7BL3fHIZq> (Zero-shot and Intrinsic) and _____
-
-1.  ##### Intrinsic: Loss and Perplexity
-
-_______
-
-1.  ##### Zero Shot: Architecture, Scaling, and Modeling
-
-We utilized the [Eleuther AI Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) (Gao et al., 2021), a framework for evaluating autoregressive language models across a variety of tasks and datasets, to compare and contrast different model approaches in English in a zero-shot setting (without fine-tuning for a specific task).
-
-Code: 
-
-<https://github.com/bigscience-workshop/bigscience/blob/master/evaluation/utilities/eai_lm_harness_through_training.slurm#L60>
-
-1.  ##### Extrinsic: Downstream Tasks
-
-Evaluation on multiple tasks, including bias testing.
-
-Code:
-
-[GitHub - bigscience-workshop/evaluation: Code and Data for Evaluation WG](https://github.com/bigscience-workshop/evaluation)
-
-### Evaluation Data
-
-Only English tested. All evaluations use the trained model directly, without further fine-tuning.
-
-Field Description Key
-
-
-| Task                          | Format                        | Capability                      | Dataset           | Eval Metric           |
-|-------------------------------|-------------------------------|---------------------------------|-------------------|-----------------------|
-| Question Answering            | Multiple choice               | Scientific knowledge            | arc_challenge     | Accuracy              |
-| Question Answering            | Multiple choice               | Scientific knowledge            | arc_easy          | Accuracy              |
-| Question Answering            | Binary                        | Open domain reasoning           | boolq             | Accuracy              |
-| Causal Reasoning              | Two choice                    | Commonsense reasoning           | glue copa         | Accuracy              |
-| Question Answering            | Multiple choice               | Healthcare knowledge            | headqa_en         | Accuracy              |
-| Temporal Paragraph Completion | Multiple choice               | Commonsense reasoning           | hellaswag         | Accuracy              |
-| Word prediction               | Free-form                     | Commonsense reasoning           | lambada           | Accuracy              |
-| Question Answering            | Multiple choice               | Commonsense reasoning/knowledge | logiqa            | Accuracy              |
-| Question Answering            | Multiple choice               | Math proficiency                | mathqa            | Accuracy              |
-| Question Answering            | Binary                        | Temporal reasoning              | mc_taco           | Exact Match (EM) / F1 |
-| Semantic Equivalence          | Two choice                    | Open domain reasoning           | glue mrpc         | Accuracy, F1          |
-| Reading Comprehension         | Multiple choice               | Open domain reasoning           | superglue multirc | Exact Match (EM) / F1 |
-| Question Answering            | Multiple choice               | Open domain knowledge           | openbookqa        | Accuracy              |
-| Question Answering            | Two choice                    | Physical commonsense knowledge  | piqa              | Accuracy              |
-| Word prediction               | Multiple choice               | Physical reasoning              | prost             | Accuracy              |
-| Question Answering            | Ternary choice (yes/no/maybe) | Biomedical knowledge            | pubmedqa          | Accuracy, F1          |
-| Entailment                    | Two choice                    | Open domain reasoning           | glue qnli         | Accuracy              |
-| Semantic Equivalence          | Two choice                    | Commonsense reasoning           | glue qqp          | Accuracy, F1          |
-| Reading Comprehension         | Multiple choice               | English proficiency             | race              | Accuracy              |
-| Textual Entailment            | Two choice                    | Commonsense reasoning           | rte               | Accuracy              |
-| Question Answering            | Multiple choice               | Scientific knowledge            | sciq              | Accuracy              |
-| Sentiment Analysis            | Score                         |                                 | sst               | Accuracy              |
-| Question Answering            | Free form                     | Open domain knowledge           | triviaqa          |  F1, Exact Match (EM) |
-| Question Answering            | Knowledge Base extraction     | Open domain knowledge           | webqs             | Accuracy              |
-| Word sense  disambiguation    | Two choice                    | Commonsense reasoning           | superglue wic     | Accuracy              |
-| Word prediction               | Two choice                    | Open domain reasoning           | winogrande        | AUC, Accuracy         |
-| Entailment                    | Two choice                    | Commonsense reasoning           | glue wnli         | Accuracy              |
-| Pronoun resolution            | Two choice                    | Open domain reasoning           | wsc               | Accuracy              |
-
-#### Bias Testing
-
-
-
-## Evaluation Results
-
-## More info
-
--   [Model architecture ](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml)and a [blog post](https://bigscience.huggingface.co/blog/what-language-model-to-train-if-you-have-two-million-gpu-hours) on decisions on architecture, size, shape, and pretraining duration
-
--   [Tensorboard during the training](https://huggingface.co/bigscience/tr11-176B-ml-logs/tensorboard#scalars&tagFilter=loss)
-
--   [Details on the obstacles overcome during the preparation on the engineering side](https://github.com/bigscience-workshop/bigscience/blob/master/train/tr11-176B-ml/chronicles-prequel.md) (instabilities, optimization of training throughput, many technical challenges and questions).[ For ongoing chronicles since the start of the final training see chronicles.](https://github.com/bigscience-workshop/bigscience/blob/master/train/tr11-176B-ml/chronicles.md)
-
--   For regular LLM training updates follow [@BigScienceLLM](https://twitter.com/BigScienceLLM)
-
 ## Glossary and Calculations
 
-Defines common terms and how metrics are calculated
+*This section defines common terms and how metrics are calculated*
 
-FPO
+-   **Loss:** A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
-Carbon footprint estimated as TBD
 
-...etc...
+-   **Perplexity:** This is based on what the model estimates the probability of new data is. The lower the perplexity, the better.  If the model is 100% correct at predicting the next token it will see, then the perplexity is 1. Mathematically this is calculated using entropy. 
 
--   High-stakes settings: See "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/)
+-   **High-stakes settings:** Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/)
 
--   The AI Act uses a risk-based approach to categorize AI systems and outline requirements associated with AI systems in each risk category 
+-   **Critical decisions**: Such as those defined in [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf).
 
--   Critical decisions: See [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf)
+-   **Human Rights**: Includes those rights defined in the [Universal Declaration of Human Rights](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf).
 
--   "Critical decisions" are defined in the context of the use of automated decision systems
+-  **Personal Data and Information**: Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
+  
+- **Sensitive Characteristics**: This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf))
 
--   The "[risk assessment framework](https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf)" introduced in Singapore's Model Artificial Intelligence Governance Framework
-
--   Detailing a commercial risk management framework for human-centric AI systems (i.e. the design and deployment of AI should protect people's interests including their safety and wellbeing).
-
-The application of "[ethical, system and societal considerations](https://www.niti.gov.in/sites/default/files/2021-02/Responsible-AI-22022021.pdf)" explored in India's Responsible AI National Strategy
+- **Deception:** Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
 ## Contributors
