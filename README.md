@@ -77,11 +77,11 @@ Checkpoint size:
 
 Training throughput: About 150 TFLOP per GPU per second
 
-Number of epochs: 1 (current target)
+Number of epochs: 1 (*current target*)
 
-Estimated carbon emissions:  Forthcoming
+Estimated carbon emissions:  *Forthcoming*
 
-Estimated electricity usage: Forthcoming
+Estimated electricity usage: *Forthcoming*
 
 Estimated cost of training: Equivalent of $7-15M
 
@@ -117,7 +117,7 @@ See the  [LLM LICENSE ](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGB
 
 #### **Out-of-scope Uses**
 
-Using the model in [high-stakes](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#bookmark=id.grey8ubq0nvg) settings is out of scope for this model.  The model is not designed for [critical decisions](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#bookmark=id.5fu0y76t5a0n) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
+Using the model in [high-stakes](#glossary-and-calculations) settings is out of scope for this model.  The model is not designed for [critical decisions](#glossary-and-calculations) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
 
 ##### Out-of-scope uses include:
 
@@ -168,7 +168,7 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 #### Indirect Users
 
--   Users of derivatives created by Direct Users, such as those using software with an [intended use](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#heading=h.t4zedx9s7smn).
+-   Users of derivatives created by Direct Users, such as those using software with an [intended use](#intended-use).
 
 -   Users of [Derivatives of the Model, as described in the License](https://docs.google.com/document/d/117RhytMYC9HS-1NmWHEn9XBK7vJ5kdv9OcG6AV69Vec/edit#bookmark=id.pvl8781qfes3).
 
@@ -365,7 +365,7 @@ As we train, we calculate loss and perplexity.
 
 -   Indirect users should be made aware when the content they're working with is created by the LLM.
 
--   Users should be aware of [Risks and Limitations](https://docs.google.com/document/d/1uQ_w-DlBsqAm8i_PEAs6HUVxmZ60yhfvrFDcvvMd8os/edit#heading=h.4tt8m5ymlink), and include an appropriate age disclaimer or blocking interface as necessary.
+-   Users should be aware of [Risks and Limitations](#risks-and-limitations), and include an appropriate age disclaimer or blocking interface as necessary.
 
 -   Models pre-trained with the LLM should include an updated Model Card.
 
@@ -382,7 +382,7 @@ As we train, we calculate loss and perplexity.
 
 -   **Perplexity:** This is based on what the model estimates the probability of new data is. The lower the perplexity, the better.  If the model is 100% correct at predicting the next token it will see, then the perplexity is 1. Mathematically this is calculated using entropy. 
 
--   **High-stakes settings:** Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/)
+-   **High-stakes settings:** Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/).
 
 -   **Critical decisions**: Such as those defined in [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf).
 
