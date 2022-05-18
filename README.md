@@ -11,7 +11,7 @@ Version 1.0 / 20.May.2022
 
 **Version:** 1.0.0
 
-**Languages:** Multiple; see [training data](README.md/#training data).
+**Languages:** Multiple; see [training data](#training-data).
 
 **License:** [RAIL License v1.0](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#)
 
