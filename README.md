@@ -1,5 +1,5 @@
 # BLOOM: BigScience Language Open-source Open-access Multilingual Model Card
-
+Version 1.0 / 20.May.2022
 ## Model Details  
 *This section provides basic information about what the model is, its current status, and where it comes from.*
 
@@ -11,11 +11,9 @@
 
 **Version:** 1.0.0
 
-**Languages:** Multiple; see training data.
+**Languages:** Multiple; see [training data](README.md/#training data).
 
 **License:** [RAIL License v1.0](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#)
-
-**Dates:** Training started 11th March, 2022 11:42am PST. Planned training end is 5th July, 2022.  In progress.
 
 **Released:** Forthcoming
 
@@ -68,6 +66,7 @@ Software:
 -   [apex](https://github.com/NVIDIA/apex) 
 
 #### Training
+_In progress._
 
 Checkpoint size:
 
@@ -78,6 +77,10 @@ Checkpoint size:
 Training throughput: About 150 TFLOP per GPU per second
 
 Number of epochs: 1 (current target)
+
+Dates: 
+- Started 11th March, 2022 11:42am PST.
+- Planned end: 5th July, 2022.  
 
 Estimated carbon emissions:  Forthcoming
 
