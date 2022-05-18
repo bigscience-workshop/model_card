@@ -407,5 +407,6 @@ As we train, we calculate loss and perplexity.
 - **Deception:** Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
 ## Model Card Authors
+*Ordered roughly chronologically and by amount of time spent.*
 
-Ezi Ozoani, Marissa Gerchick, Nazneen Rajani, Margaret Mitchell, Yacine Jernite, Sasha Luccioni, Giada Pistilli, Emi Baylor, Angie McMillan-Major, Suzana Ilić, Carlos Muñoz Ferrandis, Danish Contractor, Maraim Elbadri, Shayne Longpre, Tristan Thrush, Somaieh Nikpoor, Irene Solaiman, Manan Dey
+Margaret Mitchell, Giada Pistilli, Yacine Jernite, Ezinwanne Ozoani, Marissa Gerchick, Nazneen Rajani, Sasha Luccioni, Irene Solaiman, Maraim Masoud, Somaieh Nikpoor, Carlos Muñoz Ferrandis, Danish Contractor, David Lansky, Angie McMillan-Major, Tristan Thrush, Suzana Ilić, Gérard Dupont, Shayne Longpre, Manan Dey, Stella Biderman, Stas Bekman, Douwe Kiela, Emi Baylor, Teven Le Scao, Aaron Gokaslan, Julien Launay
