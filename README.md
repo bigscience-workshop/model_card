@@ -5,7 +5,7 @@
 
 ### Basics  
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
-*All collaborators are either volunteers or have some type of agreement with their employer.*
+*All collaborators are either volunteers or have an agreement with their employer.*
 
 **Model Type:** Transformer-based Language Model
 
