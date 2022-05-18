@@ -358,6 +358,7 @@ Forthcoming. Includes:
 | Perplexity         | Standard metric for quantifying model improvements during training |
 | Cross Entropy Loss | Standard objective for language models                             |
 
+And multiple different metrics for specific tasks.
 
 ##  Results
 *Results are based on the Factors and Metrics defined above.*
@@ -365,9 +366,9 @@ Forthcoming. Includes:
 ### Train-time evaluation
 As we train, we calculate loss and perplexity. 
 
--  Current Loss:______
+-  Current Loss: 
 
--   Perplexity per language:
+-  Perplexity per language:
 
 
 
