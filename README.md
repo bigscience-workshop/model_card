@@ -1,11 +1,14 @@
 # BLOOM: BigScience Language Open-source Open-access Multilingual Model Card
 Version 1.0 / 20.May.2022
+
 ## Model Details  
 *This section provides basic information about what the model is, its current status, and where it comes from.*
 
-### Basics  
+### Basics
+*This section provides information relevant to anyone who wants to know about the model.*
+
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
-*All collaborators are either volunteers or have an agreement with their employer.*
+All collaborators are either volunteers or have an agreement with their employer.
 
 **Model Type:** Transformer-based Language Model
 
@@ -22,6 +25,7 @@ Version 1.0 / 20.May.2022
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
 
 ### Technical Specifications
+*This section provides information for people who work on model development.*
 
 **Model Architecture:** Modified from Megatron-LM GPT2:
 
@@ -94,7 +98,8 @@ Server training location: Ile-de-France, France
 
 ## Uses
 
-*This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model.*
+*This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
+It provides information for people considering using the model or who are affected by the model.*
 
 ### Intended use
 
