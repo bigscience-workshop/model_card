@@ -31,7 +31,7 @@ Version 1.0 / 20.May.2022
 
 **Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
-**Number of Parameters:** 176B parameters -- 70 layers, 112 attention heads
+**Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
 #### Infrastructure
 
