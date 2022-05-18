@@ -1,11 +1,14 @@
 # BLOOM: BigScience Language Open-source Open-access Multilingual Model Card
+Version 1.0 / 20.May.2022
 
 ## Model Details  
 *This section provides basic information about what the model is, its current status, and where it comes from.*
 
-### Basics  
+### Basics
+*This section provides information relevant to anyone who wants to know about the model.*
+
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
-*All collaborators are either volunteers or have some type of agreement with their employer.*
+All collaborators are either volunteers or have an agreement with their employer.
 
 **Model Type:** Transformer-based Language Model
 
@@ -15,8 +18,6 @@
 
 **License:** [RAIL License v1.0](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#)
 
-**Dates:** Training started 11th March, 2022 11:42am PST. Planned training end is 5th July, 2022.  In progress.
-
 **Released:** Forthcoming
 
 **Send questions to:** bigscience-contact@googlegroups.com
@@ -24,6 +25,7 @@
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
 
 ### Technical Specifications
+*This section provides information for people who work on model development.*
 
 **Model Architecture:** Modified from Megatron-LM GPT2:
 
@@ -33,7 +35,7 @@
 
 **Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
-**Number of Parameters:** 176B parameters -- 70 layers, 112 attention heads
+**Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
 #### Infrastructure
 
@@ -68,6 +70,7 @@ Software:
 -   [apex](https://github.com/NVIDIA/apex) 
 
 #### Training
+_In progress._
 
 Checkpoint size:
 
@@ -78,6 +81,10 @@ Checkpoint size:
 Training throughput: About 150 TFLOP per GPU per second
 
 Number of epochs: 1 (*current target*)
+
+Dates: 
+- Started 11th March, 2022 11:42am PST.
+- Planned end: 5th July, 2022.  
 
 Estimated carbon emissions:  *Forthcoming*
 
@@ -91,7 +98,8 @@ Server training location: Ile-de-France, France
 
 ## Uses
 
-*This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model.*
+*This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
+It provides information for people considering using the model or who are affected by the model.*
 
 ### Intended use
 
