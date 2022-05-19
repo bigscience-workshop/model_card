@@ -246,6 +246,8 @@ The pie chart shows the distribution of languages in training data.
 
 
 The following table shows the further distribution of Niger Congo languages.
+<details>
+<summary>Click to expand</summary>
     
 | Niger Congo    | Percentage |         | Indic     | Percentage |
 |----------------|------------ |------  |-----------|------------|
@@ -269,7 +271,7 @@ The following table shows the further distribution of Niger Congo languages.
 | Kinyarwanda    | 0.003      |
 | Yoruba         | 0.006      |
 | Swahili        | 0.02       |
-
+</details>
 </details>
 <p>&nbsp;</p>
 
