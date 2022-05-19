@@ -203,7 +203,7 @@ Training data includes:
 
 #### **Language**
 
-![pie chart showing the distribution of languages in training data] (https://github.com/bigscience-workshop/model_card/assets/data/pie_chart.svg)
+![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/ezi_n_marissa_working/assets/data/pie_chart.svg?raw=true)
 
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
