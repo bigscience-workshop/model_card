@@ -1,4 +1,4 @@
-# BLOOM: BigScience Language Open-source Open-access Multilingual Model Card
+# BLOOM: BigScience Large Open-source Open-access Multilingual Model Card
 Version 1.0 / 20.May.2022
 
 ## Model Details  
