@@ -5,7 +5,7 @@ Version 1.0 / 20.May.2022
 *This section provides basic information about what the model is, its current status, and where it comes from.*
 
 ### Basics
-*This section provides information relevant to anyone who wants to know about the model.*
+*This section provides information for anyone who wants to know about the model.*
 
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
 All collaborators are either volunteers or have an agreement with their employer.
@@ -26,6 +26,8 @@ All collaborators are either volunteers or have an agreement with their employer
 
 ### Technical Specifications
 *This section provides information for people who work on model development.*
+
+*Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details.*
 
 **Model Architecture:** Modified from Megatron-LM GPT2:
 
@@ -99,7 +101,7 @@ Server training location: Ile-de-France, France
 ## Uses
 
 *This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
-It provides information for people considering using the model or who are affected by the model.*
+It provides information for anyone considering using the model, or who is affected by the model.*
 
 ### Intended use
 
@@ -189,16 +191,18 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 -   People and groups whose original work is included in the LLM
 
 ## Training Data
+*This section provides a high-level overview of the training data. It is relevant for anyone who wants to know the basics of what the model is learning.*
 
--   Training data includes:
+*Details for each dataset are provided in individual [Data Cards](https://huggingface.co/spaces/bigscience/BigScienceCorpus).*
 
-    -   45 natural languages and programming languages.
+Training data includes:
 
-    -   In 1.5TB of pre-processed text, converted into 350B unique tokens.
+-   45 natural languages and programming languages.
 
-    -   See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
+-   In 1.5TB of pre-processed text, converted into 350B unique tokens.
 
-- Data Cards for each training dataset available at: [BigScienceCorpus](https://huggingface.co/spaces/bigscience/BigScienceCorpus), with the exception of OSCAR and the Niger-Congo languages.
+See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
+
 
 ## Risks and Limitations
 *This section identifies foreseeable harms and misunderstandings.*
@@ -354,6 +358,7 @@ Forthcoming. Includes:
 | Perplexity         | Standard metric for quantifying model improvements during training |
 | Cross Entropy Loss | Standard objective for language models                             |
 
+And multiple different metrics for specific tasks.
 
 ##  Results
 *Results are based on the Factors and Metrics defined above.*
@@ -361,9 +366,9 @@ Forthcoming. Includes:
 ### Train-time evaluation
 As we train, we calculate loss and perplexity. 
 
--  Current Loss:______
+-  Current Loss: 
 
--   Perplexity per language:
+-  Perplexity per language:
 
 
 
@@ -383,7 +388,7 @@ As we train, we calculate loss and perplexity.
 
 ## Glossary and Calculations
 
-*This section defines common terms and how metrics are calculated*
+*This section defines common terms and how metrics are calculated.*
 
 -   **Loss:** A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
@@ -402,4 +407,7 @@ As we train, we calculate loss and perplexity.
 
 - **Deception:** Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
-## Contributors
+## Model Card Authors
+*Ordered roughly chronologically and by amount of time spent.*
+
+Margaret Mitchell, Giada Pistilli, Yacine Jernite, Ezinwanne Ozoani, Marissa Gerchick, Nazneen Rajani, Sasha Luccioni, Irene Solaiman, Maraim Masoud, Somaieh Nikpoor, Carlos Muñoz Ferrandis, Danish Contractor, David Lansky, Angie McMillan-Major, Tristan Thrush, Suzana Ilić, Gérard Dupont, Shayne Longpre, Manan Dey, Stella Biderman, Stas Bekman, Douwe Kiela, Emi Baylor, Teven Le Scao, Aaron Gokaslan, Julien Launay
