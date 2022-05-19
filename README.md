@@ -49,7 +49,6 @@ All collaborators are either volunteers or have an agreement with their employer
 **Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
 </details>
-<p>&nbsp;</p>
 
 #### **Infrastructure**
 <details>
@@ -85,7 +84,7 @@ Software:
 
 -   [apex](https://github.com/NVIDIA/apex) 
 </details>
-<p>&nbsp;</p>
+
 
 #### **Training**
 
