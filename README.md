@@ -201,6 +201,10 @@ Training data includes:
 
 -   In 1.5TB of pre-processed text, converted into 350B unique tokens.
 
+#### **Language**
+
+![pie chart showing the distribution of languages in training data] (https://github.com/bigscience-workshop/model_card/assets/data/pie_chart.svg)
+
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
 
