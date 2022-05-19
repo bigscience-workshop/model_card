@@ -48,11 +48,7 @@ All collaborators are either volunteers or have an agreement with their employer
 
 **Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
-</details>
-
 #### **Infrastructure**
-<details>
-<summary>Click to expand</summary>
     
 Compute Infrastructure: [Jean Zay](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) Public Supercomputer, provided by the French government
 
@@ -83,14 +79,10 @@ Software:
 -   [PyTorch](https://github.com/pytorch/pytorch)-1.11 w/ CUDA-11.5
 
 -   [apex](https://github.com/NVIDIA/apex) 
-</details>
 
 
 #### **Training**
 
-
-<details>
-<summary>Click to expand</summary>
  
 _In progress._
 
