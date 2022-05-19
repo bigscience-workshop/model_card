@@ -2,11 +2,15 @@
 Version 1.0 / 20.May.2022
 
 ## Model Details  
+
 *This section provides basic information about what the model is, its current status, and where it comes from.*
 
 ### Basics
 *This section provides information for anyone who wants to know about the model.*
 
+<details>
+<summary>Click to expand</summary>
+    
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
 All collaborators are either volunteers or have an agreement with their employer.
 
@@ -24,8 +28,13 @@ All collaborators are either volunteers or have an agreement with their employer
 
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
 
+</details>
+
 ### Technical Specifications
 *This section provides information for people who work on model development.*
+
+<details>
+<summary>Click to expand</summary>
 
 *Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details.*
 
@@ -39,8 +48,13 @@ All collaborators are either volunteers or have an agreement with their employer
 
 **Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
+</details>
+  
 #### Infrastructure
 
+<details>
+<summary>Click to expand</summary>
+    
 Compute Infrastructure: [Jean Zay](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) Public Supercomputer, provided by the French government
 
 Hardware: 384 A100 80GB GPUs (48 nodes)
@@ -70,8 +84,13 @@ Software:
 -   [PyTorch](https://github.com/pytorch/pytorch)-1.11 w/ CUDA-11.5
 
 -   [apex](https://github.com/NVIDIA/apex) 
-
+</details>
+    
 #### Training
+
+<details>
+<summary>Click to expand</summary>
+ 
 _In progress._
 
 Checkpoint size:
@@ -98,11 +117,16 @@ Funding source: French government and individual labs of contributors.
 
 Server training location: Ile-de-France, France
 
+</details>
+    
 ## Uses
 
 *This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
 It provides information for anyone considering using the model, or who is affected by the model.*
 
+<details>
+<summary>Click to expand</summary>
+    
 ### Intended use
 
 This model is being created in order to enable public research on large language models (LLMs). LLMs are intended to be used for language generation or as a pretrained base model that can be further fine-tuned for specific tasks. Use cases below are not exhaustive.
@@ -189,10 +213,14 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 -   People and groups exposed to outputs of, or decisions based on, the LLM
 
 -   People and groups whose original work is included in the LLM
+</details>
 
 ## Training Data
 *This section provides a high-level overview of the training data. It is relevant for anyone who wants to know the basics of what the model is learning.*
 
+<details>
+<summary>Click to expand</summary>
+    
 *Details for each dataset are provided in individual [Data Cards](https://huggingface.co/spaces/bigscience/BigScienceCorpus).*
 
 Training data includes:
@@ -201,16 +229,65 @@ Training data includes:
 
 -   In 1.5TB of pre-processed text, converted into 350B unique tokens.
 
-#### **Language**
-
-![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/ezi_n_marissa_working/assets/data/pie_chart.svg?raw=true)
-
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
+#### **Language**
+The pie chart shows the distribution of languages in training data.
+   
+![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/ezi_n_marissa_working/assets/data/pie_chart.svg?raw=true)
+
+The following table shows the further distribution of Indic languages.
+    
+| Indic     | Percentage |
+|-----------|------------|
+| Assamese  | 0.01       |
+| Odia      | 0.04       |
+| Gujarati  | 0.04       |
+| Marathi   | 0.05       |
+| Punjabi   | 0.05       |
+| Kannada   | 0.06       |
+| Nepali    | 0.07       |
+| Telugu    | 0.09       |
+| Malayalam | 0.10       |
+| Urdu      | 0.10       |
+| Tamil     | 0.20       |
+| Bengali   | 0.50       |
+| Hindi     | 0.70       |
+
+
+The following table shows the further distribution of Niger Congo languages.
+    
+| Niger Congo    | Percentage |
+|----------------|------------|
+| Chi Tumbuka    | 0.00002    |
+| Kikuyu         | 0.00004    |
+| Bambara        | 0.00004    |
+| Akan           | 0.00007    |
+| Xitsonga       | 0.00007    |
+| Sesotho        | 0.00007    |
+| Chi Chewa      | 0.0001     |
+| Setswana       | 0.0002     |
+| Northern Sotho | 0.0002     |
+| Fon            | 0.0002     |
+| Kirundi        | 0.0003     |
+| Wolof          | 0.0004     |
+| Kuganda        | 0.0004     |
+| Chi Shona      | 0.001      |
+| Isi Zulu       | 0.001      |
+| Igbo           | 0.001      |
+| Xhosa          | 0.001      |
+| Kinyarwanda    | 0.003      |
+| Yoruba         | 0.006      |
+| Swahili        | 0.02       |
+
+</details>
 
 ## Risks and Limitations
 *This section identifies foreseeable harms and misunderstandings.*
 
+<details>
+<summary>Click to expand</summary>
+    
 Model may:
 
 -   Overrepresent some viewpoints and underrepresent others
@@ -231,124 +308,17 @@ Model may:
 -   Make errors, including producing incorrect information as if it were factual.
 
 -   Generate irrelevant or repetitive outputs.
-  
+</details>
+
 ## Carbon Footprint
 
 The training supercomputer, Jean Zay, uses mostly nuclear energy, and the heat generated by it is reused for heating campus housing. We are also tallying the overall carbon footprint of both training and upstream tasks, which we will report after training has been completed.
 
 ## Evaluation
-  
+
 ### Factors
 *The section lists the different kinds of variables that affect how this model behaves. These factors inform how the evaluation should be disaggregated in order to understand how the model works for different populations and in different contexts.*
 
-#### **Language**
-
-<table>
-
-<tr><td>
-
-
-```mermaid
-pie showData
-    title All
-    "Niger Congo": 0.03
-    "Basque" : 0.20
-    "Indonesian" : 1.10
-    "Catalan" : 1.10
-    "Indic" : 2.10
-    "Vietnamese" : 2.50
-    "Arabic" : 3.30
-    "Portuguese" : 5.00
-    "Spanish" : 10.70
-    "Code" : 13.00
-    "French" : 13.10
-    "Chinese" : 17.70
-    "English" :  30.30
-    
-```
-| Indic     |  Percentage |
-| ---       |      ---    |
-| Assamese  |     0.01%   |
-| Odia      |     0.04%   |
-| Gujarati  |     0.04%   |
-| Marathi   |     0.05%   |
-| Punjabi   |     0.05%   |
-| Kannada   |     0.06%   |
-| Nepali    |     0.07%   |
-| Telugu    |     0.09%   |
-| Malayalam |     0.10%   |
-| Urdu      |     0.10%   |
-| Tamil     |     0.20%   |
-| Bengali   |     0.50%   |
-| Hindi     |     0.70%   |
-
-</td><td>
-
-
-```mermaid
-pie showData
-    title Niger Congo:
-   "Chi Tumbuka" : 0.00
-    "Kikuyu" : 0.00
-    "Bambara" : 0.00
-    "Akan" : 0.00
-    "Xitsonga" : 0.00
-    "Sesotho" : 0.00
-    "Chi Chewa" : 0.00
-    "Twi" :  0.00
-    "Setswana" :  0.00
-    "Lingala" : 0.00
-    "Northern Sotho" :  0.00
-    "Fon" :  0.00
-    "Kirundi" :   0.00
-    "Wolof" :   0.00
-    "Luganda" :   0.00
-    "Chi Shona" :  0.00
-    "Isi Zulu" :  0.00
-    "Igbo" :  0.00
-    "Xhosa" :  0.00
-    "Kinyarwanda" :  0.00
-    "Yoruba" :   0.01
-    "Swahili" :   0.02
-
-```
-
-```mermaid
-pie showData
-    title Indic:
-    "Assamese" :0.01
-    "Odia" : 0.04
-   "Gujarati" : 0.04
-    "Marathi" : 0.05
-    "Punjabi" :  0.05
-    "Kannada" :  0.06
-   "Nepali ": 0.07
-    "Telugu" : 0.09
-    "Malayalam" : 0.10
-    "Urdu" : 0.10
-    "Tamil" :  0.20
-    "Bengali" :  0.50
-    "Hindi" : 0.70
-    
-```
-</td></tr> </table>
-
-
-| Indic     |  Percentage |
-| ---       |      ---    |
-| Assamese  |     0.01%   |
-| Odia      |     0.04%   |
-| Gujarati  |     0.04%   |
-| Marathi   |     0.05%   |
-| Punjabi   |     0.05%   |
-| Kannada   |     0.06%   |
-| Nepali    |     0.07%   |
-| Telugu    |     0.09%   |
-| Malayalam |     0.10%   |
-| Urdu      |     0.10%   |
-| Tamil     |     0.20%   |
-| Bengali   |     0.50%   |
-| Hindi     |     0.70%   |
 
 ## Metrics 
 *This section describes the different ways performance is calculated, and why.*
@@ -375,10 +345,12 @@ As we train, we calculate loss and perplexity.
 -  Perplexity per language:
 
 
-
 ## Recommendations
 
 *This section provides information on warnings and potential mitigations.*
+
+<details>
+<summary>Click to expand</summary>
 
 -   Indirect users should be made aware when the content they're working with is created by the LLM.
 
@@ -388,11 +360,14 @@ As we train, we calculate loss and perplexity.
 
 -   Users of the model should provide mechanisms for those affected to provide feedback, such as an email address for comments.
 
-
+</details>
 
 ## Glossary and Calculations
 
 *This section defines common terms and how metrics are calculated.*
+
+<details>
+<summary>Click to expand</summary>
 
 -   **Loss:** A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
@@ -415,3 +390,4 @@ As we train, we calculate loss and perplexity.
 *Ordered roughly chronologically and by amount of time spent.*
 
 Margaret Mitchell, Giada Pistilli, Yacine Jernite, Ezinwanne Ozoani, Marissa Gerchick, Nazneen Rajani, Sasha Luccioni, Irene Solaiman, Maraim Masoud, Somaieh Nikpoor, Carlos Muñoz Ferrandis, Danish Contractor, David Lansky, Angie McMillan-Major, Tristan Thrush, Suzana Ilić, Gérard Dupont, Shayne Longpre, Manan Dey, Stella Biderman, Stas Bekman, Douwe Kiela, Emi Baylor, Teven Le Scao, Aaron Gokaslan, Julien Launay
+</details>
