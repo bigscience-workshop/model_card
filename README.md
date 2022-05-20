@@ -9,7 +9,7 @@ Version 1.0 / 20.May.2022
 *This section provides information for anyone who wants to know about the model.*
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
     
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
 All collaborators are either volunteers or have an agreement with their employer.
@@ -34,7 +34,7 @@ All collaborators are either volunteers or have an agreement with their employer
 ### Technical Specifications
 *This section provides information for people who work on model development.*
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
 
 *Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details.*
 
@@ -120,7 +120,7 @@ It provides information for anyone considering using the model, or who is affect
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
     
 ### Intended use
 
@@ -217,7 +217,7 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
     
 *Details for each dataset are provided in individual [Data Cards](https://huggingface.co/spaces/bigscience/BigScienceCorpus).*
 
@@ -239,7 +239,7 @@ The pie chart shows the distribution of languages in training data.
 
 The following table shows the further distribution of Niger Congo and Indic languages.
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
     
 | Niger Congo    | Percentage |         | Indic     | Percentage |
 |----------------|------------ |------  |-----------|------------|
@@ -273,7 +273,7 @@ The following table shows the further distribution of Niger Congo and Indic lang
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
     
 Model may:
 
@@ -301,7 +301,7 @@ Model may:
 ## Environmental Considerations
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
 
 [More forthcoming when training has completed.]
 
@@ -314,7 +314,7 @@ Model may:
 
 ## Evaluation
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
 <p>&nbsp;</p>
 
 ### Metrics 
@@ -361,7 +361,7 @@ And multiple different metrics for specific tasks.
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
 
 -   Indirect users should be made aware when the content they're working with is created by the LLM.
 
@@ -381,7 +381,7 @@ And multiple different metrics for specific tasks.
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>Click to expand</summary><br/>
 
 -   **Loss:** A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
