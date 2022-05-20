@@ -29,7 +29,6 @@ All collaborators are either volunteers or have an agreement with their employer
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
 
 </details>
-<p>&nbsp;</p>
 
 ### Technical Specifications
 *This section provides information for people who work on model development.*
