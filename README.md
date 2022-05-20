@@ -7,8 +7,8 @@ Version 1.0 / 20.May.2022
 
 ### Basics
 *This section provides information for anyone who wants to know about the model.*
-
-<summary>Click to expand</summary><br/>
+<details>
+<summary>Click to expand</summary> <br/>
     
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
 All collaborators are either volunteers or have an agreement with their employer.
