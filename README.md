@@ -22,7 +22,7 @@ All collaborators are either volunteers or have an agreement with their employer
 
 **License:** [RAIL License v1.0](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#)
 
-**Released:** Forthcoming
+**Released:** [Forthcoming]
 
 **Send questions to:** bigscience-contact@googlegroups.com
 
@@ -100,9 +100,9 @@ Dates:
 - Started 11th March, 2022 11:42am PST.
 - Planned end: 5th July, 2022.  
 
-Estimated carbon emissions:  *Forthcoming*
+Estimated carbon emissions:  [Forthcoming]
 
-Estimated electricity usage: *Forthcoming*
+Estimated electricity usage: [Forthcoming]
 
 Estimated cost of training: Equivalent of $7-15M
 
@@ -311,13 +311,16 @@ Model may:
 </details>
 
 ## Evaluation
- [Forthcoming]
+<details>
+<summary>Click to expand</summary>
 <p>&nbsp;</p>
 
-## Metrics 
+### Metrics 
 *This section describes the different ways performance is calculated, and why.*
 
-Forthcoming. Includes:
+[More Forthcoming]
+
+Includes:
 
 | Metric             | Why chosen                                                         |
 |--------------------|--------------------------------------------------------------------|
@@ -328,16 +331,24 @@ Forthcoming. Includes:
 
 And multiple different metrics for specific tasks.
 
-##  Results
-*Results are based on the Factors and Metrics defined above.*
+### Factors 
+*This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
 
-### Train-time evaluation
-As we train, we calculate loss and perplexity. 
+- Language, such as English or Yoruba
+- Domain, such as newswire or stories
+- Demographic characteristics, such as gender or nationality
 
--  Current Loss: 
+###  Results
+*Results are based on the [Factors](#factors) and [Metrics](#metrics).*
 
--  Perplexity per language:
+**Train-time evaluation:**
 
+- Current Loss: 
+
+- Perplexity per language:
+
+[More evaluation types forthcoming at the end of model training.]
+</details>
 
 ## Recommendations
 
