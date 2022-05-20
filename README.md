@@ -314,7 +314,6 @@ Model may:
 ## Evaluation
 <details>
 <summary>Click to expand</summary><br/>
-<p>&nbsp;</p>
 
 ### Metrics 
 *This section describes the different ways performance is calculated, and why.*
@@ -344,9 +343,13 @@ And multiple different metrics for specific tasks.
 
 **Train-time evaluation:**
 
-- Current Loss: 
+As of 19.May.2022, 18:00:
 
-- Perplexity per language:
+- Training Loss: 2.04
+
+- Validation Loss: 2.21
+
+- Perplexity: 9.15
 
 [More evaluation types forthcoming at the end of model training.]
 </details>
