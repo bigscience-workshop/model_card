@@ -310,6 +310,8 @@ Model may:
 <p>&nbsp;</p>
 </details>
 
+<BR/>
+
 ## Evaluation
 <details>
 <summary>Click to expand</summary>
@@ -349,6 +351,8 @@ And multiple different metrics for specific tasks.
 
 [More evaluation types forthcoming at the end of model training.]
 </details>
+
+<BR/>
 
 ## Recommendations
 
