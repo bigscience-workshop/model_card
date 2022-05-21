@@ -236,7 +236,9 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 Training data includes:
 
--   45 natural languages and programming languages.
+-   45 natural languages.
+    
+-   12 programming languages.     
 
 -   In 1.5TB of pre-processed text, converted into 350B unique tokens.
 
