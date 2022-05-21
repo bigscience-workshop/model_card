@@ -244,7 +244,7 @@ Training data includes:
 
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
-#### **Language**
+#### **Languages**
 The pie chart shows the distribution of languages in training data.
    
 ![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/main/assets/data/pie_chart.svg?raw=true)
