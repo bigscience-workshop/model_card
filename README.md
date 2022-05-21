@@ -277,6 +277,14 @@ The following table shows the further distribution of Niger Congo and Indic lang
 | Yoruba         | 0.006      |
 | Swahili        | 0.02       |
 </details>
+
+The following table shows the distribution of programming languages.
+<details>
+<summary>Click to expand</summary><br/>
+    
+TABLE HERE
+    
+</details>    
 </details>
 <p>&nbsp;</p>
 
