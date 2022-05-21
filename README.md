@@ -284,7 +284,33 @@ The following table shows the distribution of programming languages.
 <details>
 <summary>Click to expand</summary><br/>
     
-TABLE HERE
+| Extension      | Language   | Number of files |
+|----------------|------------|-----------------|
+| java           | Java       | 5,407,724       |
+| php            | PHP        | 4,942,186       |
+| cpp            | C++        | 2,503,930       |
+| py             | Python     | 2,435,072       |
+| js             | JavaScript | 1,905,518       |
+| cs             | C#         | 1,577,347       |
+| rb             | Ruby       | 6,78,413        |
+| cc             | C++        | 443,054         |
+| hpp            | C++        | 391,048         |
+| lua            | Lua        | 352,317         |
+| go             | GO         | 227,763         |
+| ts             | TypeScript | 195,254         |
+| C              | C          | 134,537         |
+| scala          | Scala      | 92,052          |
+| hh             | C++        | 67,161          |
+| H              | C++        | 55,899          |
+| tsx            | TypeScript | 33,107          |
+| rs             | Rust       | 29,693          |
+| phpt           | PHP        | 9,702           |
+| c++            | C++        | 1,342           |
+| h++            | C++        | 791             |
+| php3           | PHP        | 540             |
+| phps           | PHP        | 270             |
+| php5           | PHP        | 166             |
+| php4           | PHP        | 29              |
     
 </details>    
 </details>
