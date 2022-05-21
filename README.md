@@ -252,7 +252,7 @@ The pie chart shows the distribution of languages in training data.
 
 
 
-The following table shows the further distribution of Niger Congo and Indic languages.
+The following table shows the further distribution of Niger-Congo and Indic languages in the training data.
 <details>
 <summary>Click to expand</summary><br/>
     
