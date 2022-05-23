@@ -44,13 +44,16 @@ Version 1.0 / 23.May.2022
 
 **Model Architecture:** Modified from Megatron-LM GPT2 ([paper link](https://arxiv.org/abs/1909.08053)):
 
-1.  Layer normalization applied to word embedding layer
-
-2. [ALiBI positional encodings](https://arxiv.org/pdf/2108.12409.pdf)
+* Decoder-only architecture
+* Layer normalization applied to word embeddings layer (`StableEmbedding`; see [code](https://github.com/facebookresearch/bitsandbytes), [paper](https://arxiv.org/pdf/2110.02861.pdf))
+* ALiBI positional encodings ([paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
+* 176 billion parameters:
+    * 70 layers, 112 attention heads
+    * Hidden layers are 14336-dimensional
+    * Sequence length of 2,048 tokens used ([tokenizer code link](https://huggingface.co/bigscience/tokenizer))
 
 **Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
-**Number of Parameters:** 176B parameters; 70 layers, 112 attention heads
 
 #### **Infrastructure**
     
