@@ -1,9 +1,9 @@
 # BLOOM: BigScience Large Open-source Open-access Multilingual Model Card
+![BigScience Logo](https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png)
+
 Version 1.0 / 23.May.2022
 
 ## Model Details  
-
-*This section provides basic information about what the model is, its current status, and where it comes from.*
 
 ### Basics
 *This section provides information for anyone who wants to know about the model.*
