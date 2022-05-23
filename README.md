@@ -42,7 +42,7 @@ Version 1.0 / 20.May.2022
 
 1.  Word embeddings layer normalization
 
-2. [ALiBI positional encodings] (https://arxiv.org/pdf/2108.12409.pdf)
+2. [ALiBI positional encodings](https://arxiv.org/pdf/2108.12409.pdf)
 
 **Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
