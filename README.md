@@ -38,7 +38,7 @@ Version 1.0 / 23.May.2022
 
 *Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details.*
 
-**Model Architecture:** Modified from Megatron-LM GPT2:
+**Model Architecture:** Modified from Megatron-LM GPT2 ([paper link](https://arxiv.org/abs/1909.08053)):
 
 1.  Word embeddings layer normalization
 
