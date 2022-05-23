@@ -236,13 +236,15 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 Training data includes:
 
--   45 natural languages and programming languages.
+-   45 natural languages.
+    
+-   12 programming languages.     
 
 -   In 1.5TB of pre-processed text, converted into 350B unique tokens.
 
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
-#### **Language**
+#### **Languages**
 The pie chart shows the distribution of languages in training data.
    
 ![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/main/assets/data/pie_chart.svg?raw=true)
@@ -250,7 +252,7 @@ The pie chart shows the distribution of languages in training data.
 
 
 
-The following table shows the further distribution of Niger Congo and Indic languages.
+The following table shows the further distribution of Niger-Congo and Indic languages in the training data.
 <details>
 <summary>Click to expand</summary><br/>
     
@@ -277,6 +279,40 @@ The following table shows the further distribution of Niger Congo and Indic lang
 | Yoruba         | 0.006      |
 | Swahili        | 0.02       |
 </details>
+
+The following table shows the distribution of programming languages.
+<details>
+<summary>Click to expand</summary><br/>
+    
+| Extension      | Language   | Number of files |
+|----------------|------------|-----------------|
+| java           | Java       | 5,407,724       |
+| php            | PHP        | 4,942,186       |
+| cpp            | C++        | 2,503,930       |
+| py             | Python     | 2,435,072       |
+| js             | JavaScript | 1,905,518       |
+| cs             | C#         | 1,577,347       |
+| rb             | Ruby       | 6,78,413        |
+| cc             | C++        | 443,054         |
+| hpp            | C++        | 391,048         |
+| lua            | Lua        | 352,317         |
+| go             | GO         | 227,763         |
+| ts             | TypeScript | 195,254         |
+| C              | C          | 134,537         |
+| scala          | Scala      | 92,052          |
+| hh             | C++        | 67,161          |
+| H              | C++        | 55,899          |
+| tsx            | TypeScript | 33,107          |
+| rs             | Rust       | 29,693          |
+| phpt           | PHP        | 9,702           |
+| c++            | C++        | 1,342           |
+| h++            | C++        | 791             |
+| php3           | PHP        | 540             |
+| phps           | PHP        | 270             |
+| php5           | PHP        | 166             |
+| php4           | PHP        | 29              |
+    
+</details>    
 </details>
 <p>&nbsp;</p>
 
