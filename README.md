@@ -40,7 +40,7 @@ Version 1.0 / 23.May.2022
 
 **Model Architecture:** Modified from Megatron-LM GPT2 ([paper link](https://arxiv.org/abs/1909.08053)):
 
-1.  Word embeddings layer normalization
+1.  Layer normalization applied to word embedding layer
 
 2. [ALiBI positional encodings](https://arxiv.org/pdf/2108.12409.pdf)
 
