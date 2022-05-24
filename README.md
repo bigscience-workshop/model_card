@@ -169,7 +169,7 @@ Estimated cost of training: Equivalent of $7-15M
 Server training location: Île-de-France, France
 
 #### **Tokenization**
-The [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer) is a learned subword tokenizer trained using a byte-level Byte Pair Encoding (BPE) algorithm with byte fallback, a simple pre-tokenization rule, no normalization, and a vocabulary size of 250,680. This tokenizer was trained on a subset of a preliminary version of the corpus using alpha-weighting per language.    
+The [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer) is a learned subword tokenizer trained using a byte-level Byte Pair Encoding (BPE) algorithm a simple pre-tokenization rule, no normalization, and a vocabulary size of 250,680. This tokenizer was trained on a subset of a preliminary version of the corpus using alpha-weighting per language.    
     
 </details>
 
