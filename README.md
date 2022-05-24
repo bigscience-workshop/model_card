@@ -106,17 +106,17 @@ Version 1.0 / 24.May.2022
 
 *Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details on replicating training.*
 
-**Model Architecture:** Modified from Megatron-LM GPT2 ([paper link](https://arxiv.org/abs/1909.08053)):
+**Model Architecture:** Modified from Megatron-LM GPT2 (see [paper](https://arxiv.org/abs/1909.08053), [BLOOM Megatron code](https://github.com/bigscience-workshop/Megatron-DeepSpeed)):
 
 * Decoder-only architecture
 * Layer normalization applied to word embeddings layer (`StableEmbedding`; see [code](https://github.com/facebookresearch/bitsandbytes), [paper](https://arxiv.org/pdf/2110.02861.pdf))
-* ALiBI positional encodings ([paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
+* ALiBI positional encodings (see [paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
 * 176 billion parameters:
     * 70 layers, 112 attention heads
     * Hidden layers are 14336-dimensional
-    * Sequence length of 2048 tokens used ([BLOOM tokenizer link](https://huggingface.co/bigscience/tokenizer))
+    * Sequence length of 2048 tokens used (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
 
-**Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
+**Objective Function:** Cross Entropy with mean reduction (see [API documentation](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss))
 
 
 #### **Infrastructure**
