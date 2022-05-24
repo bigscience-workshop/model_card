@@ -1,4 +1,5 @@
 ---
+license: other
 language:
 - ak
 - ar
