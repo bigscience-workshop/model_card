@@ -1,3 +1,55 @@
+---
+language:
+- ak
+- ar
+- as
+- bm
+- bn
+- ca
+- code
+- en
+- es
+- eu
+- fon
+- fr
+- gu
+- hi
+- id
+- ig
+- ki
+- kn
+- lg
+- ln
+- ml
+- mr
+- ne
+- nso
+- ny
+- or
+- pa
+- pt
+- rn
+- rw
+- sn
+- st
+- sw
+- ta
+- te
+- tn
+- ts
+- tum
+- tw
+- ur
+- vi
+- wo
+- xh
+- yo
+- zh
+- zhs
+- zht
+- zu
+---
+
 # <p>BLOOM LM<br/> _BigScience Large Open-source Open-access Multilingual Language Model_ <br/>Model Card</p>
 ![BigScience Logo](https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png)
 
