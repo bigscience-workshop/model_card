@@ -54,7 +54,7 @@ language:
 # <p>BLOOM LM<br/> _BigScience Large Open-source Open-access Multilingual Language Model_ <br/>Model Card</p>
 ![BigScience Logo](https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png)
 
-Version 1.0 / 23.May.2022
+Version 1.0 / 24.May.2022
 
 ## Table of Contents
 1. [Model Details](#model-details)
