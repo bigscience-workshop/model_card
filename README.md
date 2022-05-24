@@ -50,7 +50,7 @@ Version 1.0 / 23.May.2022
 * 176 billion parameters:
     * 70 layers, 112 attention heads
     * Hidden layers are 14336-dimensional
-    * Sequence length of 2,048 tokens used ([tokenizer code link](https://huggingface.co/bigscience/tokenizer))
+    * Sequence length of 2048 tokens used ([tokenizer code link](https://huggingface.co/bigscience/tokenizer))
 
 **Objective Function:** [Cross Entropy with mean reduction](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
