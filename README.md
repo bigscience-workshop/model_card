@@ -1,5 +1,5 @@
 ---
-license: other
+license: bigscience-bloom-rail-1.0
 language:
 - ak
 - ar
