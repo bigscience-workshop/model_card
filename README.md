@@ -71,11 +71,14 @@ Version 1.0 / 24.May.2022
 
 ### Basics
 *This section provides information for anyone who wants to know about the model.*
+
 <details>
 <summary>Click to expand</summary> <br/>
     
 **Developed by:** [BigScience](https://bigscience.huggingface.co)  
-* All collaborators are either volunteers or have an agreement with their employer.  
+
+* All collaborators are either volunteers or have an agreement with their employer. 
+    
 * (Further breakdown of participants forthcoming.)
     
 **Model Type:** Transformer-based Language Model
@@ -93,53 +96,70 @@ Version 1.0 / 24.May.2022
 **Cite as:** [BigScience Workshop](https://bigscience.huggingface.co), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
     
 **Funded by:** 
+    
 * The French government
+
 * [Hugging Face](https://huggingface.co)
+
 * Organizations of contributors.  (Further breakdown of organizations forthcoming.)
 
 </details>
 
 ### Technical Specifications
 *This section provides information for people who work on model development.*
+
 <details>
 <summary>Click to expand</summary><br/>
 
-*Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details on replicating training.*
+Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details on replicating training.
 
 **Model Architecture:** Modified from Megatron-LM GPT2 (see [paper](https://arxiv.org/abs/1909.08053), [BLOOM Megatron code](https://github.com/bigscience-workshop/Megatron-DeepSpeed)):
 
 * Decoder-only architecture
+
 * Layer normalization applied to word embeddings layer (`StableEmbedding`; see [code](https://github.com/facebookresearch/bitsandbytes), [paper](https://arxiv.org/pdf/2110.02861.pdf))
+
 * ALiBI positional encodings (see [paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
+
 * 176 billion parameters:
+
     * 70 layers, 112 attention heads
+
     * Hidden layers are 14336-dimensional
+
     * Sequence length of 2048 tokens used (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
 
 **Objective Function:** Cross Entropy with mean reduction (see [API documentation](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss))
-
-
-#### **Infrastructure**
     
-Compute Infrastructure: [Jean Zay](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) Public Supercomputer, provided by the French government
+**Compute infrastructure:** [Jean Zay](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html) Public Supercomputer, provided by the French government
 
-Hardware: 384 A100 80GB GPUs (48 nodes)
+* Hardware: 384 A100 80GB GPUs (48 nodes):
+    
+    * Additional 32 A100 80GB GPUs (4 nodes) in reserve
 
--   Additional 32 A100 80GB GPUs (4 nodes) in reserve
--   8 GPUs per node Using NVLink 4 inter-gpu connects, 4 OmniPath links
--   CPU: AMD
--   CPU memory: 512GB per node
--   GPU memory: 640GB per node
--   Inter-node connect: Omni-Path Architecture (OPA)
--   NCCL-communications network: a fully dedicated subnet
--   Disc IO network: shared network with other types of nodes
+    *  8 GPUs per node Using NVLink 4 inter-gpu connects, 4 OmniPath links
 
-Software:
+    *   CPU: AMD
 
--   [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed), BigScience fork
--   [DeepSpeed](https://github.com/microsoft/DeepSpeed)
--   [PyTorch](https://github.com/pytorch/pytorch)-1.11 w/ CUDA-11.5
--   [apex](https://github.com/NVIDIA/apex) 
+    *   CPU memory: 512GB per node
+
+    *   GPU memory: 640GB per node
+
+    *   Inter-node connect: Omni-Path Architecture (OPA)
+
+    *   NCCL-communications network: a fully dedicated subnet
+
+    *   Disc IO network: shared network with other types of nodes
+
+* Software:
+
+    *   [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed), BigScience fork
+
+    *   [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+
+    *   [PyTorch](https://github.com/pytorch/pytorch)-1.11 w/ CUDA-11.5
+
+    *   [apex](https://github.com/NVIDIA/apex) 
 
 
 #### **Training**
@@ -147,25 +167,28 @@ Software:
  
 _In progress._
 
-Checkpoint size:
+- Checkpoint size:
+    
+    - Bf16 weights: 329GB
+    
+    - Full checkpoint with optimizer states: 2.3TB
 
--   Bf16 weights: 329GB
--   Full checkpoint with optimizer states: 2.3TB
+- Training throughput: About 150 TFLOP per GPU per second
 
-Training throughput: About 150 TFLOP per GPU per second
+- Number of epochs: 1 (*current target*)
 
-Number of epochs: 1 (*current target*)
+- Dates:
+    
+    - Started 11th March, 2022 11:42am PST.
 
-Dates: 
-- Started 11th March, 2022 11:42am PST.
-- Planned end: 5th July, 2022.  
+    - Planned end: 5th July, 2022.  
 
+- Estimated cost of training: Equivalent of $7-15M
 
-Estimated cost of training: Equivalent of $7-15M
-
-Server training location: Île-de-France, France
+- Server training location: Île-de-France, France
 
 #### **Tokenization**
+    
 The [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer) is a learned subword tokenizer trained using a byte-level Byte Pair Encoding (BPE) algorithm a simple pre-tokenization rule, no normalization, and a vocabulary size of 250,680. This tokenizer was trained on a subset of a preliminary version of the corpus using alpha-weighting per language.    
     
 </details>
@@ -176,12 +199,12 @@ The [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer) is a learned 
 <details>
 <summary>Click to expand</summary><br/>
 
-The training supercomputer, [Jean Zay]((http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html)), uses mostly nuclear energy.
-
-The heat generated by it is reused for heating campus housing.
+The training supercomputer, [Jean Zay]((http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html)), uses mostly nuclear energy. The heat generated by it is reused for heating campus housing.
     
-- Estimated carbon emissions:  (Forthcoming upon completion of training.)
-- Estimated electricity usage: (Forthcoming upon completion of training.)
+**Estimated carbon emissions:**  (Forthcoming upon completion of training.)
+    
+**Estimated electricity usage:** (Forthcoming upon completion of training.)
+
 </details>
 <p>&nbsp;</p>
 
@@ -211,7 +234,6 @@ This model is being created in order to enable public research on large language
 -   Tasks that leverage language models include: Information Extraction, Question Answering, Summarization.
 
 ### Misuse and Out-of-scope Use
-
 *This section addresses what users ought not do with the model.*
 
 See the  [LLM LICENSE](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit), Attachment A, for detailed usage restrictions. The below list is non-exhaustive, but lists some easily foreseeable problematic use cases.
@@ -246,7 +268,6 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Unconsented surveillance 
 
-
 -   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#heading=h.3blioxkgzsje).
 
 ### Intended Users
@@ -280,12 +301,12 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 -   People and groups exposed to outputs of, or decisions based on, the LLM
 
 -   People and groups whose original work is included in the LLM
+    
 </details>
 <p>&nbsp;</p>
 
 ## Training Data
 *This section provides a high-level overview of the training data. It is relevant for anyone who wants to know the basics of what the model is learning.*
-
 
 
 <details>
@@ -304,11 +325,10 @@ Training data includes:
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
 #### **Languages**
+    
 The pie chart shows the distribution of languages in training data.
    
 ![pie chart showing the distribution of languages in training data](https://github.com/bigscience-workshop/model_card/blob/main/assets/data/pie_chart.svg?raw=true)
-
-
 
 
 The following table shows the further distribution of Niger-Congo and Indic languages in the training data.
@@ -378,8 +398,6 @@ The following table shows the distribution of programming languages.
 ## Risks and Limitations
 *This section identifies foreseeable harms and misunderstandings.*
 
-
-
 <details>
 <summary>Click to expand</summary><br/>
     
@@ -413,8 +431,6 @@ Model may:
 ### Metrics 
 *This section describes the different ways performance is calculated, and why.*
 
-[More Forthcoming]
-
 Includes:
 
 | Metric             | Why chosen                                                         |
@@ -424,13 +440,15 @@ Includes:
 | Perplexity         | Standard metric for quantifying model improvements during training |
 | Cross Entropy Loss | Standard objective for language models                             |
 
-And multiple different metrics for specific tasks.
+And multiple different metrics for specific tasks. (More evaluation metrics forthcoming upon completion of evaluation protocol.)
 
 ### Factors 
 *This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
 
 - Language, such as English or Yoruba
+
 - Domain, such as newswire or stories
+    
 - Demographic characteristics, such as gender or nationality
 
 ###  Results
@@ -446,15 +464,14 @@ As of 19.May.2022, 18:00:
 
 - Perplexity: 9.15
 
-[More evaluation types forthcoming at the end of model training.]
-</details>
+(More evaluation scores forthcoming at the end of model training.)
 
-<BR/>
+</details>
+<p>&nbsp;</p>
 
 ## Recommendations
 
 *This section provides information on warnings and potential mitigations.*
-
 
 
 <details>
