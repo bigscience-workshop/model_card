@@ -179,7 +179,7 @@ _In progress._
     
     - Started 11th March, 2022 11:42am PST
 
-    - Planned end: 5th July, 2022
+    - Estimated end: 5th July, 2022
 
 - Estimated cost of training: Equivalent of $7-15M
 
