@@ -1,5 +1,5 @@
 ---
-license: other
+license: bigscience-bloom-rail-1.0
 language:
 - ak
 - ar
@@ -92,7 +92,7 @@ Version 1.0 / 25.May.2022
 **Send Questions to:** bigscience-contact@googlegroups.com
 
 **Cite as:** BigScience, _BigScience Language Open-source Open-access Multilingual (BLOOM) Language Model_. International, May 2021-May 2022
-    
+
 **Funded by:** 
     
 * The French government.
@@ -109,7 +109,7 @@ Version 1.0 / 25.May.2022
 <details>
 <summary>Click to expand</summary><br/>
 
-Please see the BLOOM training README ([link](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme)) for full details on replicating training.
+Please see [the BLOOM training README](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#readme) for full details on replicating training.
 
 **Model Architecture:** Modified from Megatron-LM GPT2 (see [paper](https://arxiv.org/abs/1909.08053), [BLOOM Megatron code](https://github.com/bigscience-workshop/Megatron-DeepSpeed)):
 
@@ -150,7 +150,7 @@ Please see the BLOOM training README ([link](https://github.com/bigscience-works
     *   Disc IO network: shared network with other types of nodes
 
 * Software:
-
+  
     *   Megatron-DeepSpeed ([Github link](https://github.com/bigscience-workshop/Megatron-DeepSpeed))
 
     *   DeepSpeed ([Github link](https://github.com/microsoft/DeepSpeed))
@@ -211,19 +211,20 @@ The training supercomputer, Jean Zay ([website](http://www.idris.fr/eng/jean-zay
     
 **Estimated electricity usage:** *(Forthcoming upon completion of training.)*
 
+
 </details>
 <p>&nbsp;</p>
 
 ## Uses
 
 *This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
-It provides information for anyone considering using the model, or who is affected by the model.*
+It provides information for anyone considering using the model or who is affected by the model.*
 
 
 <details>
 <summary>Click to expand</summary><br/>
     
-### Intended use
+### Intended Use
 
 This model is being created in order to enable public research on large language models (LLMs). LLMs are intended to be used for language generation or as a pretrained base model that can be further fine-tuned for specific tasks. Use cases below are not exhaustive.
 
@@ -248,7 +249,7 @@ See the [BLOOM License](https://huggingface.co/spaces/bigscience/license), Attac
 
 Using the model in [high-stakes](#high-stakes) settings is out of scope for this model.  The model is not designed for [critical decisions](#critical-decisions) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
 
-##### Out-of-scope uses include:
+##### Out-of-scope Uses Include:
 
 -   Usage in biomedical domains, political and legal domains, or finance domains
 
@@ -274,7 +275,7 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 
 -   Unconsented surveillance 
 
--   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://huggingface.co/spaces/bigscience/license).
+-   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://huggingface.co/spaces/bigscience/license)
 
 ### Intended Users
 
@@ -300,7 +301,7 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 
 -   Users of [Derivatives of the Model, as described in the License](https://huggingface.co/spaces/bigscience/license)
 
-#### Others Affected (Parties prenantes)
+#### Others Affected (Parties Prenantes)
 
 -   People and groups referred to by the LLM
 
@@ -435,7 +436,7 @@ Model may:
 <summary>Click to expand</summary><br/>
 
 ### Metrics 
-*This section describes the different ways performance is calculated, and why.*
+*This section describes the different ways performance is calculated and why.*
     
 Includes:
 
@@ -485,7 +486,7 @@ As of 19.May.2022, 18:00:
 
 -   Users should be aware of [Risks and Limitations](#risks-and-limitations), and include an appropriate age disclaimer or blocking interface as necessary.
 
--   Models pre-trained with the LLM should include an updated Model Card.
+-   Models pretrained with the LLM should include an updated Model Card.
 
 -   Users of the model should provide mechanisms for those affected to provide feedback, such as an email address for comments.
 
@@ -503,18 +504,17 @@ As of 19.May.2022, 18:00:
 
 -   <a name="loss">**Loss:**</a> A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
-
 -   <a name="perplexity">**Perplexity:**</a> This is based on what the model estimates the probability of new data is. The lower the perplexity, the better.  If the model is 100% correct at predicting the next token it will see, then the perplexity is 1. Mathematically this is calculated using entropy. 
 
 -   <a name="high-stakes">**High-stakes settings:**</a> Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/).
 
 -   <a name="critical-decisions">**Critical decisions:**</a> Such as those defined in [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf).
 
--   <a name="human-rights">**Human Rights:**</a> Includes those rights defined in the [Universal Declaration of Human Rights](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf).
+-   <a name="human-rights">**Human rights:**</a> Includes those rights defined in the [Universal Declaration of Human Rights](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf).
 
--  <a name="personal-data-and-information">**Personal Data and Information:**</a> Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
+-  <a name="personal-data-and-information">**Personal Data and Personal Information:**</a> Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
   
-- <a name="sensitive-characteristics">**Sensitive Characteristics:**</a> This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf)).
+- <a name="sensitive-characteristics">**Sensitive characteristics:**</a> This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf))
 
 - <a name="deception">**Deception:**</a> Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
