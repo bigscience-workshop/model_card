@@ -219,7 +219,7 @@ The training supercomputer, [Jean Zay]((http://www.idris.fr/eng/jean-zay/jean-za
 ## Uses
 
 *This section addresses questions around how the model is intended to be used, discusses the foreseeable users of the model (including those affected by the model), and describes uses that are considered out of scope or misuse of the model. 
-It provides information for anyone considering using the model, or who is affected by the model.*
+It provides information for anyone considering using the model or who is affected by the model.*
 
 
 <details>
@@ -437,7 +437,7 @@ Model may:
 <summary>Click to expand</summary><br/>
 
 ### Metrics 
-*This section describes the different ways performance is calculated, and why.*
+*This section describes the different ways performance is calculated and why.*
     
 For defintions of each metric, please see the [Glossary](#glossary-and-calculations).
 
