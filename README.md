@@ -549,7 +549,7 @@ Details on the obstacles overcome during the preparation on the engineering side
 
 ### Initial Results
 
-Proto-evaluation / example first outputs: https://huggingface.co/spaces/bigscience/bloom-book
+Initial prompting experiments using interim checkpoints: https://huggingface.co/spaces/bigscience/bloom-book
 
 </details>
 <p>&nbsp;</p>
