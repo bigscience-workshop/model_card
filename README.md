@@ -326,7 +326,7 @@ Training data includes:
     
 -   12 programming languages
 
--   In 1.5TB of pre-processed text, converted into 350B unique tokens (See [the tokenizer section](#tokenization) for more.)
+-   In 1.5TB of pre-processed text, converted into 350B unique tokens (see [the tokenizer section](#tokenization) for more.)
 
 
 #### **Languages**
@@ -408,24 +408,23 @@ The following table shows the distribution of programming languages.
     
 Model may:
 
--   Overrepresent some viewpoints and underrepresent others.
+-   Overrepresent some viewpoints and underrepresent others
 
--   Contain stereotypes.
+-   Contain stereotypes
   
--   Contain [personal information](#personal-data-and-information).
-
+-   Contain [personal information](#personal-data-and-information)
 
 -   Generate:
 
-    -   Hateful, abusive, or violent language.
+    -   Hateful, abusive, or violent language
 
-    -   Discriminatory or prejudicial language.
+    -   Discriminatory or prejudicial language
 
-    -   Content that may not be appropriate for all settings, including sexual content.
+    -   Content that may not be appropriate for all settings, including sexual content
 
--   Make errors, including producing incorrect information as if it were factual.
+-   Make errors, including producing incorrect information as if it were factual
 
--   Generate irrelevant or repetitive outputs.
+-   Generate irrelevant or repetitive outputs
 </details>
 <p>&nbsp;</p>
 
