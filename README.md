@@ -525,6 +525,24 @@ As of 19.May.2022, 18:00:
 </details>
 <p>&nbsp;</p>
 
+## More Information
+
+<details>
+<summary>Click to expand</summary><br/>
+    
+- Blog post on the hardware/engineering side: https://bigscience.huggingface.co/blog/which-hardware-to-train-a-176b-parameters-model
+    
+- Details on the distributed setup used for the training: https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml
+    
+- Tensorboard updated during the training: https://huggingface.co/bigscience/tr11-176B-ml-logs/tensorboard#scalars&tagFilter=loss
+    
+- Negative results, lessons that were learned the hard way:  https://github.com/bigscience-workshop/bigscience/blob/master/train/lessons-learned.md
+
+- Details on the obstacles overcome during the preparation on the engineering side (instabilities, optimization of training throughput, so many technical tricks and questions): https://github.com/bigscience-workshop/bigscience/blob/master/train/tr11-176B-ml/chronicles.md
+    
+</details>
+<p>&nbsp;</p>
+
 ## Model Card Authors
 *Ordered roughly chronologically and by amount of time spent.*
 
