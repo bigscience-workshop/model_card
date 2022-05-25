@@ -129,7 +129,7 @@ Please see the BLOOM training README ([link](https://github.com/bigscience-works
 
 **Objective Function:** Cross Entropy with mean reduction (see [API documentation](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss))
     
-**Compute infrastructure:** Jean Zay Public Supercomputer, provided by the French government (see [details](http://www.idris.fr/eng/jean-zay/jean-zay-presentation-eng.html))
+**Compute infrastructure:** Jean Zay Public Supercomputer, provided by the French government (see [announcement](https://www.enseignementsup-recherche.gouv.fr/fr/signature-du-marche-d-acquisition-de-l-un-des-supercalculateurs-les-plus-puissants-d-europe-46733)).
 
 * Hardware: 384 A100 80GB GPUs (48 nodes):
     
@@ -296,17 +296,17 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 
 #### Indirect Users
 
--   Users of derivatives created by Direct Users, such as those using software with an [intended use](#intended-use).
+-   Users of derivatives created by Direct Users, such as those using software with an [intended use](#intended-use)
 
--   Users of [Derivatives of the Model, as described in the License](https://huggingface.co/spaces/bigscience/license).
+-   Users of [Derivatives of the Model, as described in the License](https://huggingface.co/spaces/bigscience/license)
 
 #### Others Affected (Parties prenantes)
 
--   People and groups referred to by the LLM.
+-   People and groups referred to by the LLM
 
--   People and groups exposed to outputs of, or decisions based on, the LLM.
+-   People and groups exposed to outputs of, or decisions based on, the LLM
 
--   People and groups whose original work is included in the LLM.
+-   People and groups whose original work is included in the LLM
     
 </details>
 <p>&nbsp;</p>
