@@ -179,9 +179,9 @@ _In progress._
 
 - Dates:
     
-    - Started 11th March, 2022 11:42am PST.
+    - Started 11th March, 2022 11:42am PST
 
-    - Planned end: 5th July, 2022.  
+    - Planned end: 5th July, 2022
 
 - Estimated cost of training: Equivalent of $7-15M
 
@@ -195,7 +195,7 @@ The [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer) is a learned 
 
 - A simple pre-tokenization rule, no normalization
 
-- A vocabulary size of 250,680. 
+- A vocabulary size of 250,680
 
 It was trained on a subset of a preliminary version of the corpus using alpha-weighting per language.    
     
