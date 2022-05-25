@@ -77,9 +77,7 @@ Version 1.0 / 24.May.2022
     
 **Developed by:** BigScience ([website](https://bigscience.huggingface.co))
 
-* All collaborators are either volunteers or have an agreement with their employer. 
-    
-* (Further breakdown of participants forthcoming.)
+* All collaborators are either volunteers or have an agreement with their employer. *(Further breakdown of participants forthcoming.)*
     
 **Model Type:** Transformer-based Language Model
 
@@ -101,9 +99,7 @@ Version 1.0 / 24.May.2022
 
 * Hugging Face ([website](https://huggingface.co)).
 
-* Organizations of contributors.  
-    
-* (Further breakdown of organizations forthcoming.)
+* Organizations of contributors.  *(Further breakdown of organizations forthcoming.)*
 
 </details>
 
