@@ -320,7 +320,7 @@ Training data includes:
     
 -   12 programming languages.     
 
--   In 1.5TB of pre-processed text, converted into 350B unique tokens.
+-   In 1.5TB of pre-processed text, converted into 350B unique tokens. (See [the tokenizer section](#tokenization) for more.)
 
 See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
