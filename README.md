@@ -438,6 +438,8 @@ Model may:
 
 ### Metrics 
 *This section describes the different ways performance is calculated, and why.*
+    
+For defintions of each metric, please see the [Glossary](#glossary-and-calculations).
 
 Includes:
 
