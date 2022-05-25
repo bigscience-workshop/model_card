@@ -443,8 +443,6 @@ Includes:
 
 | Metric             | Why chosen                                                         |
 |--------------------|--------------------------------------------------------------------|
-| F1                 | Standard for benchmarking                                          |
-| Accuracy           | Standard for benchmarking                                          |
 | Perplexity         | Standard metric for quantifying model improvements during training |
 | Cross Entropy Loss | Standard objective for language models                             |
 
