@@ -248,7 +248,7 @@ See the  [LLM LICENSE](https://huggingface.co/spaces/bigscience/license), Attach
 
 #### **Out-of-scope Uses**
 
-Using the model in [high-stakes](#glossary-and-calculations) settings is out of scope for this model.  The model is not designed for [critical decisions](#glossary-and-calculations) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
+Using the model in [high-stakes](#high-stakes) settings is out of scope for this model.  The model is not designed for [critical decisions](#critical-decisions) nor uses with any material consequences on an individual's livelihood or wellbeing. The model outputs content that appears factual but is not correct.  
 
 ##### Out-of-scope uses include:
 
@@ -260,7 +260,7 @@ Using the model in [high-stakes](#glossary-and-calculations) settings is out of 
 
 #### **Misuse**
 
-Intentionally using the model for harm, violating rights, or other kinds of malicious activities is a misuse of this model. This includes:
+Intentionally using the model for harm, violating [human rights](#human-rights), or other kinds of malicious activities is a misuse of this model. This includes:
 
 -   Spam generation
 
@@ -270,7 +270,7 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Harassment and abuse
   
--   Deception
+-   [Deception](#deception)
 
 -   Unconsented impersonation and imitation
 
@@ -304,11 +304,11 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 #### Others Affected (Parties prenantes)
 
--   People and groups referred to by the LLM
+-   People and groups referred to by the LLM.
 
--   People and groups exposed to outputs of, or decisions based on, the LLM
+-   People and groups exposed to outputs of, or decisions based on, the LLM.
 
--   People and groups whose original work is included in the LLM
+-   People and groups whose original work is included in the LLM.
     
 </details>
 <p>&nbsp;</p>
@@ -411,18 +411,18 @@ The following table shows the distribution of programming languages.
     
 Model may:
 
--   Overrepresent some viewpoints and underrepresent others
+-   Overrepresent some viewpoints and underrepresent others.
 
--   Contain stereotypes
+-   Contain stereotypes.
   
--   Contain personal information
+-   Contain [personal information](#personal-data-and-information).
 
 
 -   Generate:
 
-    -   Hateful, abusive, or violent language
+    -   Hateful, abusive, or violent language.
 
-    -   Discriminatory or prejudicial language
+    -   Discriminatory or prejudicial language.
 
     -   Content that may not be appropriate for all settings, including sexual content.
 
@@ -439,14 +439,12 @@ Model may:
 ### Metrics 
 *This section describes the different ways performance is calculated, and why.*
     
-For defintions of each metric, please see the [Glossary](#glossary-and-calculations).
-
 Includes:
 
 | Metric             | Why chosen                                                         |
 |--------------------|--------------------------------------------------------------------|
-| Perplexity         | Standard metric for quantifying model improvements during training |
-| Cross Entropy Loss | Standard objective for language models                             |
+| [Perplexity](#perplexity)         | Standard metric for quantifying model improvements during training |
+| Cross Entropy [Loss](#loss) | Standard objective for language models                             |
 
 And multiple different metrics for specific tasks. (More evaluation metrics forthcoming upon completion of evaluation protocol.)
 
@@ -505,22 +503,22 @@ As of 19.May.2022, 18:00:
 <details>
 <summary>Click to expand</summary><br/>
 
--   **Loss:** A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
+-   <a name="loss">**Loss:**</a> A calculation of the difference between what the model has learned and what the data shows ("groundtruth"). The lower the loss, the better. The training process aims to minimize the loss. 
 
 
--   **Perplexity:** This is based on what the model estimates the probability of new data is. The lower the perplexity, the better.  If the model is 100% correct at predicting the next token it will see, then the perplexity is 1. Mathematically this is calculated using entropy. 
+-   <a name="perplexity">**Perplexity:**</a> This is based on what the model estimates the probability of new data is. The lower the perplexity, the better.  If the model is 100% correct at predicting the next token it will see, then the perplexity is 1. Mathematically this is calculated using entropy. 
 
--   **High-stakes settings:** Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/).
+-   <a name="high-stakes">**High-stakes settings:**</a> Such as those identified as "high-risk AI systems" and "unacceptable risk AI systems" in the European Union's proposed [Artificial Intelligence (AI) Act](https://artificialintelligenceact.eu/annexes/).
 
--   **Critical decisions**: Such as those defined in [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf).
+-   <a name="critical-decisions">**Critical decisions**:</a> Such as those defined in [the United States' proposed Algorithmic Accountability Act](https://www.congress.gov/117/bills/s3572/BILLS-117s3572is.pdf).
 
--   **Human Rights**: Includes those rights defined in the [Universal Declaration of Human Rights](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf).
+-   <a name="human-rights">**Human Rights:**</a> Includes those rights defined in the [Universal Declaration of Human Rights](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf).
 
--  **Personal Data and Information**: Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
+-  <a name="personal-data-and-information">**Personal Data and Information**:</a> Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
   
-- **Sensitive Characteristics**: This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf))
+- <a name="sensitive-characteristics">**Sensitive Characteristics:**</a> This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf))
 
-- **Deception:** Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
+- <a name="deception">**Deception:**</a> Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
 </details>
 <p>&nbsp;</p>
