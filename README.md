@@ -55,7 +55,7 @@ language:
 <img src="https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png" alt="BigScience Logo" width="200"/>
 
 
-Version 1.0 / 24.May.2022
+Version 1.0 / 25.May.2022
 
 ## Table of Contents
 1. [Model Details](#model-details)
