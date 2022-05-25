@@ -83,7 +83,7 @@ Version 1.0 / 25.May.2022
 
 **Version:** 1.0.0
 
-**Languages:** Multiple; see [training data](#training-data).
+**Languages:** Multiple; see [training data](#training-data)
 
 **License:** RAIL License v1.0 ([link](https://huggingface.co/spaces/bigscience/license))
 
@@ -258,7 +258,7 @@ Using the model in [high-stakes](#high-stakes) settings is out of scope for this
 
 #### **Misuse**
 
-Intentionally using the model for harm, violating [human rights](#human-rights), or other kinds of malicious activities is a misuse of this model. This includes:
+Intentionally using the model for harm, violating [human rights](#human-rights), or other kinds of malicious activities, is a misuse of this model. This includes:
 
 -   Spam generation
 
@@ -322,11 +322,11 @@ Details for each dataset are provided in individual [Data Cards](https://hugging
 
 Training data includes:
 
--   45 natural languages.
+-   45 natural languages
     
--   12 programming languages.     
+-   12 programming languages
 
--   In 1.5TB of pre-processed text, converted into 350B unique tokens. (See [the tokenizer section](#tokenization) for more.)
+-   In 1.5TB of pre-processed text, converted into 350B unique tokens (See [the tokenizer section](#tokenization) for more.)
 
 
 #### **Languages**
@@ -443,7 +443,7 @@ Includes:
 | [Perplexity](#perplexity)         | Standard metric for quantifying model improvements during training |
 | Cross Entropy [Loss](#loss) | Standard objective for language models                             |
 
-And multiple different metrics for specific tasks. (More evaluation metrics forthcoming upon completion of evaluation protocol.)
+And multiple different metrics for specific tasks. _(More evaluation metrics forthcoming upon completion of evaluation protocol.)_
 
 ### Factors 
 *This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
@@ -513,7 +513,7 @@ As of 19.May.2022, 18:00:
 
 -  <a name="personal-data-and-information">**Personal Data and Information:**</a> Personal data and information is defined in multiple data protection regulations, such as "[personal data](https://gdpr-info.eu/issues/personal-data/)" in the [European Union's General Data Protection Regulation](https://gdpr-info.eu); and "personal information" in the Republic of South Africa's [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf), The People's Republic of China's [Personal information protection law](http://en.npc.gov.cn.cdurl.cn/2021-12/29/c_694559.htm).
   
-- <a name="sensitive-characteristics">**Sensitive Characteristics:**</a> This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf))
+- <a name="sensitive-characteristics">**Sensitive Characteristics:**</a> This includes specifically protected categories in human rights (see [UHDR, Article 2](https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf)) and personal information regulation (see GDPR, [Article 9; Protection of Personal Information Act, Chapter 1](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf)).
 
 - <a name="deception">**Deception:**</a> Doing something to intentionally mislead individuals to believe something that is false, such as by creating deadbots or chatbots on social media posing as real people, or generating text documents without making consumers aware that the text is machine generated.
 
