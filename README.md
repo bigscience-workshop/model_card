@@ -65,7 +65,8 @@ Version 1.0 / 25.May.2022
 5. [Evaluation](#evaluation)
 6. [Recommendations](#recommendations)
 7. [Glossary and Calculations](#glossary-and-calculations)
-8. [Model Card Authors](#model-card-authors)
+8. [More Information](#more-information)
+9. [Model Card Authors](#model-card-authors)
 
 ## Model Details  
 
@@ -521,6 +522,38 @@ As of 19.May.2022, 18:00:
 </details>
 <p>&nbsp;</p>
 
+## More Information
+
+<details>
+<summary>Click to expand</summary><br/>
+    
+### Dataset Creation
+
+Blog post detailing the design choices during the dataset creation: https://bigscience.huggingface.co/blog/building-a-tb-scale-multilingual-dataset-for-language-modeling
+
+### Technical Specifications
+
+Blog post summarizing how the architecture, size, shape, and pre-training duration where selected: https://bigscience.huggingface.co/blog/what-language-model-to-train-if-you-have-two-million-gpu-hours
+
+More details on the architecture/optimizer: https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml
+
+Blog post on the hardware/engineering side: https://bigscience.huggingface.co/blog/which-hardware-to-train-a-176b-parameters-model
+
+Details on the distributed setup used for the training: https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml
+
+Tensorboard updated during the training: https://huggingface.co/bigscience/tr11-176B-ml-logs/tensorboard#scalars&tagFilter=loss
+
+Insights on how to approach training, negative results: https://github.com/bigscience-workshop/bigscience/blob/master/train/lessons-learned.md
+
+Details on the obstacles overcome during the preparation on the engineering side (instabilities, optimization of training throughput, so many technical tricks and questions): https://github.com/bigscience-workshop/bigscience/blob/master/train/tr11-176B-ml/chronicles.md
+
+### Initial Results
+
+Initial prompting experiments using interim checkpoints: https://huggingface.co/spaces/bigscience/bloom-book
+
+</details>
+<p>&nbsp;</p>
+    
 ## Model Card Authors
 *Ordered roughly chronologically and by amount of time spent.*
 
