@@ -489,7 +489,7 @@ As of 19.May.2022, 18:00:
 
 -   Users should be aware of [Risks and Limitations](#risks-and-limitations), and include an appropriate age disclaimer or blocking interface as necessary.
 
--   Models pre-trained with the LLM should include an updated Model Card.
+-   Models pretrained with the LLM should include an updated Model Card.
 
 -   Users of the model should provide mechanisms for those affected to provide feedback, such as an email address for comments.
 
