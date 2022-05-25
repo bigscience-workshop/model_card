@@ -87,7 +87,7 @@ Version 1.0 / 24.May.2022
 
 **Languages:** Multiple; see [training data](#training-data).
 
-**License:** [RAIL License v1.0](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#)
+**License:** [RAIL License v1.0](https://huggingface.co/spaces/bigscience/license)
 
 **Release Date:** Monday, 11.July (estimate)
 
@@ -244,7 +244,7 @@ This model is being created in order to enable public research on large language
 ### Misuse and Out-of-scope Use
 *This section addresses what users ought not do with the model.*
 
-See the  [LLM LICENSE](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit), Attachment A, for detailed usage restrictions. The below list is non-exhaustive, but lists some easily foreseeable problematic use cases.
+See the  [LLM LICENSE](https://huggingface.co/spaces/bigscience/license), Attachment A, for detailed usage restrictions. The below list is non-exhaustive, but lists some easily foreseeable problematic use cases.
 
 #### **Out-of-scope Uses**
 
@@ -276,7 +276,7 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Unconsented surveillance 
 
--   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://docs.google.com/document/d/10NMjEKjxR7mrZ5CvugGBVaF6nPEgNxFBIbkH7z5HB-0/edit#heading=h.3blioxkgzsje).
+-   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://huggingface.co/spaces/bigscience/license).
 
 ### Intended Users
 
@@ -300,7 +300,7 @@ Intentionally using the model for harm, violating rights, or other kinds of mali
 
 -   Users of derivatives created by Direct Users, such as those using software with an [intended use](#intended-use).
 
--   Users of [Derivatives of the Model, as described in the License](https://docs.google.com/document/d/117RhytMYC9HS-1NmWHEn9XBK7vJ5kdv9OcG6AV69Vec/edit#bookmark=id.pvl8781qfes3).
+-   Users of [Derivatives of the Model, as described in the License](https://huggingface.co/spaces/bigscience/license).
 
 #### Others Affected (Parties prenantes)
 
