@@ -462,7 +462,7 @@ And multiple different metrics for specific tasks. (More evaluation metrics fort
 ###  Results
 *Results are based on the [Factors](#factors) and [Metrics](#metrics).*
 
-**Train-time evaluation:**
+**Train-time Evaluation:**
 
 As of 19.May.2022, 18:00:
 
