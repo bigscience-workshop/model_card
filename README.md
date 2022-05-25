@@ -91,7 +91,7 @@ Version 1.0 / 24.May.2022
 
 **Send Questions to:** bigscience-contact@googlegroups.com
 
-**Cite as:** BigScience Workshop ([website](https://bigscience.huggingface.co)), BigScience Language Open-source Open-access Multilingual (BLOOM). International, May 2021-May 2022.
+**Cite as:** BigScience, _BigScience Language Open-source Open-access Multilingual (BLOOM) Language Model_. International, May 2021-May 2022
     
 **Funded by:** 
     
@@ -318,7 +318,7 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 <details>
 <summary>Click to expand</summary><br/>
     
-*Details for each dataset are provided in individual [Data Cards](https://huggingface.co/spaces/bigscience/BigScienceCorpus).*
+Details for each dataset are provided in individual [Data Cards](https://huggingface.co/spaces/bigscience/BigScienceCorpus).
 
 Training data includes:
 
@@ -328,7 +328,6 @@ Training data includes:
 
 -   In 1.5TB of pre-processed text, converted into 350B unique tokens. (See [the tokenizer section](#tokenization) for more.)
 
-See the [Model README, Datasets for more](https://github.com/bigscience-workshop/bigscience/tree/master/train/tr11-176B-ml#datasets).
 
 #### **Languages**
     
